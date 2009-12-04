@@ -113,6 +113,7 @@ module ParkPlace::Models
                 t.column :meta,      :text
                 t.column :obj,       :text
             end
+            add_index :parkplace_bits, :name
             create_table :parkplace_users do |t|
                 t.column :id,             :integer,  :null => false
                 t.column :login,          :string,   :limit => 40
