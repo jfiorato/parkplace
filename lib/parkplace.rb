@@ -1,4 +1,5 @@
 require 'rubygems'
+require 'metaid'
 require 'camping'
 require 'camping/session'
 require 'digest/sha1'
